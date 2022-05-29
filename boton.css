@@ -1,12 +1,35 @@
 ﻿div {
 margin: 20px 0;
 }
-
+a { 
+   text-decoration:none;
+ }
+ input, textarea, select {
+   padding: 4px;
+   border: 4px;
+   border-radius: 4px;
+   outline: #eee solid 1px;
+ }
+ input:focus, textarea:focus, select:focus {
+   outline-color: #1DB954;
+ }
+ input[type=submit] {
+   background-color: white;
+ }
+ input[type=submit]:hover {
+   background-color: #eee;
+   outline-color: #FFC3E2;
+ }
+ .yt:hover {
+   color: #FF0000;
+ }
+ .sp:hover {
+   color: #1DB954;
+ }
 .btn {
    background: #FF3C3C;
      color: white;
      font-size:16px;
-     text-decoration:none;
      padding:15px 20px;
      display: inline-block;
      margin:0 10px;
@@ -19,9 +42,16 @@ opacity:.8;
 .medium1 {
    font-size:16px;
    padding: 15px 20px;
-   border-radius:150px;
+   border-radius:100px;
+   color: black;
 }
 
 .rosa {
    background: #FFC3E2;
+}
+.info {
+   padding-right: 40px;
+   padding-left: 40px;
+   font-family:  'Bell MT';
+   font-size: 20px;
 }
